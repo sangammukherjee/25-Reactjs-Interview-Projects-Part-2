@@ -1,0 +1,33 @@
+
+
+.firebase-auth-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.firebase-auth-container h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.firebase-auth-container button {
+    padding: 8px 10px;
+    background-color: #f3f800;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.firebase-auth-container .input-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.firebase-auth-container .input-wrapper input {
+    margin-bottom: 20px;
+}

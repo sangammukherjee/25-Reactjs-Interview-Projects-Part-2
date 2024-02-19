@@ -1,0 +1,63 @@
+.quiz {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.quiz h1{
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.quiz .options-wrapper .options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz .options-wrapper h2 , .show-result-wrapper h2{
+    margin-bottom: 10px;
+}
+
+.quiz .options-wrapper p, .show-result-wrapper p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: rgb(6, 242, 33);
+}
+
+.quiz .options-wrapper .options .option {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    outline: none;
+    background-color: #0fffe7;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quiz .options-wrapper .options .option.selected {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.quiz .options-wrapper .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quiz .options-wrapper .button-container button ,.restart-button {
+    padding: 12px 20px;
+    background-color: #f3f800;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

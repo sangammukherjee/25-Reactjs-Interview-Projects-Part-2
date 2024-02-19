@@ -1,0 +1,45 @@
+
+.nested-comments-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.nested-comments-container h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nested-comments-container .add-comment-btn{
+    padding: 12px 20px;
+    background-color: #f3f800;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nested-comments-container ul{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nested-comments-container ul li {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nested-comments-container ul li span{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nested-comments-container ul li button {
+    padding: 8px 10px;
+    background-color: #f3f800;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}

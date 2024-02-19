@@ -1,0 +1,32 @@
+.pdf-viewer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pdf-viewer-container h1{
+    margin-top: 30px;
+}
+
+.pdf-viewer-container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.pdf-viewer-container ul li {
+    padding: 20px;
+    background-color: rgb(0, 255, 251);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.pdf-viewer-container button {
+    padding: 8px 10px;
+    background-color: #f3f800;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}

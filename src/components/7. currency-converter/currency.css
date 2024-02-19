@@ -1,0 +1,43 @@
+.currency-converter{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.currency-converter h1{
+margin-bottom: 30px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-container select{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.currency-converter .exchange-rate{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}

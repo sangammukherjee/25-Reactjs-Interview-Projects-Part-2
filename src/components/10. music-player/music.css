@@ -1,0 +1,36 @@
+.music-player {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.music-player img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.music-player .progress-bar {
+  height: 15px;
+  border-radius: 8px;
+  background-color: #cccccc;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+
+
+.track-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.track-controls button {
+  padding: 12px 20px;
+  background-color: #f3f800;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,35 @@
+
+
+.debounce-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.debounce-container h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.debounce-container input {
+    padding: 10px 20px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.debounce-container ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    gap: 25px;
+}
+
+.debounce-container ul li {
+    padding: 10px;
+    background-color: #f3f800;
+    border: 1px solid #000;
+}
